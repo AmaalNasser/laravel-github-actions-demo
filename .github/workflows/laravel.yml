@@ -1,6 +1,5 @@
 name: Run Laravel Tests
-env:
-  APP_KEY: ${{ secrets.APP_KEY }}
+
 on:
   push:
     branches: [main]
